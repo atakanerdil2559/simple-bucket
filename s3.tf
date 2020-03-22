@@ -12,3 +12,6 @@ resource "aws_s3_bucket" "state" {
   }
 }
 
+output "bucketname" {
+  value = "${aws_s3_bucket.state.id}"
+}
