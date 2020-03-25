@@ -4,7 +4,7 @@ provider "aws" {
 
 
 resource "aws_s3_bucket" "state" {
-  bucket = "my-supercool-bucket-state"
+  bucket = "my-erdil-bucket-state"
   provider   = "aws"
   tags = {
     Name        = "My bucket"
